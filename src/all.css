@@ -1,0 +1,316 @@
+
+
+:root{
+    --secondry-color:#000000bd;
+    --primary-color:  #0000ff;
+    --link-color:#1c1ce6;
+    --bodytext-color:#dee1ec;
+    --tertiary-color:#6039d4bd;
+
+}
+body{
+    /* background-image: url(https://i.redd.it/woi8oyp0cih41.jpg); */
+    background-image: linear-gradient( blue, white);
+    max-width: 600rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(245, 245, 245);
+    width: auto;
+    font-weight: 900;
+   
+}
+button{
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    color: var(--secondry-color) ;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+
+}
+.btn{
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+    float: right;
+
+}
+.btn2{
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+}
+.btn1{
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+   
+
+}
+button :hover{
+    letter-spacing: 1.5px;
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s
+}
+.L1{
+   
+    text-decoration: none;
+    color: var(--bodytext-color);
+    font-weight: 700;
+    
+}
+.L2{
+    
+    text-decoration: none;
+    color: var(--bodytext-color);
+    font-weight: 700;
+}
+.non-bullets{
+    list-style: none;
+    
+}
+.list-items-inline{ 
+    display: inline;
+    padding:  0.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.navigation{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-image:linear-gradient(to left, rgb(125, 221, 216), lawngreen);
+    padding: 0.9rem;
+    
+    
+  }
+.non-bullets .nav-pills{
+      margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  
+.navHead{
+    padding: 0.5rem;
+    /* color: rgb(232, 215, 250); */
+}
+.navMain{
+    width: 100%;
+    
+}
+.am  .hompara{
+    font-size: xx-large;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homMain{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    max-width: 90%;
+    
+}
+
+.homMain  .title{
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+.homMain .title2{
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    margin-top: 0rem;
+    
+}
+main{
+    width: 100%;
+}
+
+.mainwrite{
+    max-width: 100%;
+    
+}
+.bloglink{
+    text-decoration: none;
+    text-align: center;
+    padding: 4rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    background-image: linear-gradient(to left,rgb(0, 133, 126),lawngreen, rgb(0, 160, 152));
+    /* background-color: var(--link-color); */
+    border-radius: 10rem;
+}
+.bloglink2{
+    text-decoration: none;
+    text-align: center;
+    padding: 4rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    /* background-color: var(--link-color); */
+    background-image: linear-gradient(to left,rgb(0, 146, 139),lawngreen, rgb(0, 131, 124));
+    border-radius: 10rem;
+}
+.mainwrite .poe{
+    text-decoration: none;
+    color: #000;
+    /* color: var(--bodytext-color); */
+}
+footer{
+    background-image: linear-gradient(to left,lawngreen, rgb(125, 221, 216));
+    position: absolute;
+    width: 99%;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    border-top: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.footlink{
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 40rem;
+}
+.workBody{
+    background-image: linear-gradient(to bottom, blue, lawngreen );
+}
+.works{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 2rem;
+}
+#heading{
+    max-width: 80%;
+    margin-left:auto ;
+    margin-right:auto ;
+    text-align: center;
+    display: block;
+    font-size:3.8rem;
+    background-color: var(--link-color);
+    padding: 0.5rem;
+    margin-top: 8rem;
+    margin-bottom: 13rem;
+    border-radius: 2rem;
+    
+}
+#heading span{
+    font-size:3.8rem;
+    color: #021b03;
+    background-color: var(--link-color);
+    
+}
+.codlink{
+    text-decoration: none;
+    padding: 0.5rem ;
+    /* color: var(--link-color) ; */
+    color: black;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+    margin-left:auto;
+    margin-right: auto;
+}
+.codlink2{
+    text-decoration: none;
+    padding: 0.5rem ;
+    /* color: var(--link-color) ; */
+    color: black;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+    margin-left:auto;
+    margin-right: auto;
+}
+hr{
+    
+    max-width: 800px;
+    margin-top: 2rem;
+}
+.worsec{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+.worsec1{
+    max-width: 900px;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding: 2rem;
+    /* background-color: var(--tertiary-color); */
+    background-image: linear-gradient(to left,rgb(125, 221, 216),lawngreen, rgb(125, 221, 216));
+    color: black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 5px var(--tertiary-color);
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.worsec2{
+    max-width: 85%;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--tertiary-color);
+    box-shadow: 0px 0px 10px 5px var(--tertiary-color);
+    border-radius: 1rem;
+}
+.worpa{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+.homsec{
+    max-width: 600rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #021b03;
+}
+.homtec{
+    max-width: 600rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0rem ;
+    text-align: center;
+    font-size: 3rem;
+}
+.home{
+    text-align: center;
+}
+.hompa{
+   
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px  black ;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
+.appDivImg {
+font-size: 4rem;
+margin-top: 20rem;
+text-align:center ;
+}
+.projectSection {
+    transform: rotate(180deg);
+}
+.projectSection > .worsec1 {
+    transform: rotate(-180deg);
+}
+.projectSection > .worsec2 {
+    transform: rotate(-180deg);
+}
+
